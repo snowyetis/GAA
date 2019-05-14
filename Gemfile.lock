@@ -101,6 +101,9 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
+    pg (1.1.4)
+    postgresql (1.0.0)
+      pg
     public_suffix (3.0.3)
     puma (3.12.1)
     rack (2.0.7)
@@ -205,6 +208,7 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  postgresql
   puma (~> 3.7)
   rails (~> 5.1.7)
   sass-rails
